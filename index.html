@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="gradient">
+
+    </div>
+    <div class="body">
+        
+        <div class="container">
+            <div class="scene">
+                <div class="fon2">
+    
+                </div>
+    
+                <img class="layer-img" src="img/sloi/8-les.png" data-speed="-2">
+    
+    
+                <img class="layer-img" src="img/sloi/7-les.png" data-speed="-1">
+    
+    
+                <img class="layer-img" src="img/sloi/6-les.png" data-speed="-1">
+    
+                <!--
+                    <li class="layer" data-depth="0">
+                        <img class="layer-img" src="img/sloi/5-nebo.png" data-speed="6">
+                    </li>
+                    
+                    <li class="layer" data-depth="0">
+                        <img class="layer-img" src="img/sloi/4-nebo.png" data-speed="-2">
+                    </li>
+                    -->
+    
+                <img class="layer-img" src="./img/sloi/3-vishka.png" data-speed="0.5">
+    
+    
+                <img class="layer-img" src="./img/sloi/2-les.png" data-speed="2">
+    
+    
+                <img class="layer-img" src="./img/sloi/1-lastochki-1.png" data-speed="5">
+                <div class="fon">
+    
+                </div>
+    
+    
+                <!--
+                    <li class="layer" data-depth="0">
+                        <img src="img/sloi/9-les.png">
+                    </li>-->
+            </div>
+    
+        </div>
+        <div id="drops-section"></div>
+        <div class="app-wrap">
+            <header class="header">
+                <div class="search-div">
+                    <input class="search-box" type="text" placeholder="Введите город..." autocomplete="off">
+                    <button class="search-btn"></button>
+                </div>
+            </header>
+            <main class="main">
+                <section class="location">
+                    <div class="city">
+                        Нет данных
+                    </div>
+                    <div class="date">
+    
+                    </div>
+                </section>
+                <section class="current">
+                    <div class="temperature">
+                        <span class="celsius"></span>
+                    </div>
+    
+                    <img class="icon">
+    
+    
+    
+                    <div class="weather">
+    
+                    </div>
+                    <div class="hi-low">
+    
+                    </div>
+                </section>
+                <section class="daily-container ">
+                    <div class="swiper-container">
+                        <div class="daily-wrapper swiper-wrapper">
+                            <div class="daily-item daily-item--0 swiper-slide">
+                                <span class="daily-item__date">
+    
+                                </span>
+                                <div class="container-icon">
+                                    <img class="daily-item__img">
+                                </div>
+    
+                                <span class="daily-item__temp-day">
+    
+                                </span>
+                                <span class="daily-item__temp-night">
+    
+                                </span>
+                                <span class="daily-item__description">
+    
+                                </span>
+                            </div>
+                            <div class="daily-item daily-item--1 swiper-slide">
+                                <span class="daily-item__date">
+    
+                                </span>
+                                <div class="container-icon">
+                                    <img class="daily-item__img">
+                                </div>
+                                <span class="daily-item__temp-day">
+    
+                                </span>
+                                <span class="daily-item__temp-night">
+    
+                                </span>
+                                <span class="daily-item__description">
+    
+                                </span>
+                            </div>
+                            <div class="daily-item daily-item--2 swiper-slide">
+                                <span class="daily-item__date">
+    
+                                </span>
+                                <div class="container-icon">
+                                    <img class="daily-item__img">
+                                </div>
+                                <span class="daily-item__temp-day">
+    
+                                </span>
+                                <span class="daily-item__temp-night">
+    
+                                </span>
+                                <span class="daily-item__description">
+    
+                                </span>
+                            </div>
+                            <div class="daily-item daily-item--3 swiper-slide">
+                                <span class="daily-item__date">
+    
+                                </span>
+                                <div class="container-icon">
+                                    <img class="daily-item__img">
+                                </div>
+                                <span class="daily-item__temp-day">
+    
+                                </span>
+                                <span class="daily-item__temp-night">
+    
+                                </span>
+                                <span class="daily-item__description">
+    
+                                </span>
+                            </div>
+                            <div class="daily-item daily-item--4 swiper-slide">
+                                <span class="daily-item__date">
+    
+                                </span>
+                                <div class="container-icon">
+                                    <img class="daily-item__img">
+                                </div>
+                                <span class="daily-item__temp-day">
+    
+                                </span>
+                                <span class="daily-item__temp-night">
+    
+                                </span>
+                                <span class="daily-item__description">
+    
+                                </span>
+                            </div>
+                            <div class="daily-item daily-item--5 swiper-slide">
+                                <span class="daily-item__date">
+    
+                                </span>
+                                <div class="container-icon">
+                                    <img class="daily-item__img">
+                                </div>
+                                <span class="daily-item__temp-day">
+    
+                                </span>
+                                <span class="daily-item__temp-night">
+    
+                                </span>
+                                <span class="daily-item__description">
+    
+                                </span>
+                            </div>
+                            <div class="daily-item daily-item--6 swiper-slide">
+                                <span class="daily-item__date">
+    
+                                </span>
+                                <div class="container-icon">
+                                    <img class="daily-item__img">
+                                </div>
+                                <span class="daily-item__temp-day">
+    
+                                </span>
+                                <span class="daily-item__temp-night">
+    
+                                </span>
+                                <span class="daily-item__description">
+    
+                                </span>
+                            </div>
+                            <div class="daily-item daily-item--7 swiper-slide">
+                                <span class="daily-item__date">
+    
+                                </span>
+                                <div class="container-icon">
+                                    <img class="daily-item__img">
+                                </div>
+                                <span class="daily-item__temp-day">
+    
+                                </span>
+                                <span class="daily-item__temp-night">
+    
+                                </span>
+                                <span class="daily-item__description">
+    
+                                </span>
+                            </div>
+    
+    
+                        </div>
+                        <!--
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                            -->
+                    </div>
+    
+    
+                </section>
+    
+            </main>
+        </div>
+        
+    <!--
+    <div class="btn-section">
+        
+        <span>
+            <b>Drops:
+                <span id="dropsNum">
+    
+                </span>
+            </b>
+        </span>
+        
+        <a class="drop-btn" onclick="changeNumDrops(100);">100</a>
+        <a class="drop-btn" onclick="changeNumDrops(500);">500</a>
+        <a class="drop-btn" onclick="changeNumDrops(800);">800</a>
+        <a class="drop-btn" onclick="changeNumDrops(1300);">1300</a>
+        
+    </div>
+    -->
+
+    
+    
+    
+    
+  <!--  <script src="js/drop.js"></script> -->
+  <!--  <script src="js/rain.js"></script>-->
+   
+ <!-- <div class="grid-test">Сука</div> -->
+    
+   <!-- <script src="./libraries/parallax-master/src/parallax.js"></script>-->
+    </div>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
